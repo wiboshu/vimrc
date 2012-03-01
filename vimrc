@@ -40,6 +40,16 @@
 
 " yxh's settings:
 
+syntax on "syntax highlight 
+
+" TAB setting{
+   set expandtab        "replace <TAB> with spaces
+   set softtabstop=4 
+   set shiftwidth=4 
+
+   au FileType Makefile set noexpandtab
+"} 
+
 " chinese env
 set encoding=utf-8
 set termencoding=utf-8
