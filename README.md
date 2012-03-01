@@ -6,7 +6,7 @@ STEP 1
 STEP 2
 ------
 
-    $ git clone git@github.com:wiboshu/vimrc.git
+    $ git clone git://github.com/wiboshu/vimrc.git #git clone git@github.com:wiboshu/vimrc.git
     $ ln -s vimrc/vimrc .vimrc
 
 STEP 3
