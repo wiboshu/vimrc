@@ -101,3 +101,5 @@ nmap <leader>n :NERDTreeToggle <CR>
    noremap  <C-u>5 yypVr^
    inoremap <C-u>5 <esc>yypVr^A
 "}
+iab iidate <c-r>=strftime("20%y年%m月%d日 %H:%M:%S")<cr>
+iab iiauthor 杨晓恒<yangxiaoheng@vmfan.com>
