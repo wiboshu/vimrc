@@ -17,6 +17,7 @@
  Bundle 'tpope/vim-rails.git'
  Bundle 'scrooloose/nerdtree'
  Bundle 'msanders/snipmate.vim'
+ Bundle 'groenewege/vim-less'
  " vim-scripts repos
  Bundle 'L9'
  Bundle 'FuzzyFinder'
