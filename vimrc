@@ -24,6 +24,7 @@
  Bundle 'matchit.zip'
  Bundle 'The-NERD-Commenter'
  Bundle 'taglist.vim'
+ Bundle 'VimClojure'
  " non github repos
  " Bundle 'git://git.wincent.com/command-t.git'
  " ...
