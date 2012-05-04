@@ -83,6 +83,9 @@ map <S-L> gt
 " ,p toggles paste mode
 nmap <leader>p :set paste!<BAR>set paste?<CR>
 
+" ,o toogles line number
+nmap <leader>o :set nu!<BAR>set nonu?<CR>
+
 " ,n toggles neardtree
 nmap <leader>n :NERDTreeToggle <CR>
 
