@@ -2,5 +2,6 @@ INSTALL
 -------
 
     $ curl -o - https://raw.github.com/wiboshu/vimrc/master/install.sh | sh
-or
+or: 
+
     $ wget -O - https://raw.github.com/wiboshu/vimrc/master/install.sh | sh
