@@ -25,6 +25,7 @@
  Bundle 'The-NERD-Commenter'
  Bundle 'taglist.vim'
  Bundle 'VimClojure'
+ Bundle 'Indent-Guides'
  " non github repos
  " Bundle 'git://git.wincent.com/command-t.git'
  " ...
