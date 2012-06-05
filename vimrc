@@ -48,7 +48,7 @@ syntax on "syntax highlight
 " Indent Guides{
 let g:indent_guides_guide_size=1
 set cc=80
-let g:indent_guides_enable_on_vim_startup = 1
+" let g:indent_guides_enable_on_vim_startup = 1
 " }
 
 " TAB setting{
