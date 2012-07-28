@@ -18,7 +18,7 @@
  Bundle 'scrooloose/nerdtree'
  Bundle 'msanders/snipmate.vim'
  Bundle 'groenewege/vim-less'
- Bundle 'tempire/slimv'
+ " Bundle 'tempire/slimv'
  " vim-scripts repos
  Bundle 'L9'
  Bundle 'FuzzyFinder'
