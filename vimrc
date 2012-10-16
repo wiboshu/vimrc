@@ -18,7 +18,11 @@
  Bundle 'scrooloose/nerdtree'
  Bundle 'msanders/snipmate.vim'
  Bundle 'groenewege/vim-less'
+ Bundle 'jnwhiteh/vim-golang'
+ Bundle 'nsf/gocode', {'rtp': 'vim/'}
+ Bundle 'ervandew/supertab'
  " Bundle 'tempire/slimv'
+
  " vim-scripts repos
  Bundle 'L9'
  Bundle 'FuzzyFinder'
