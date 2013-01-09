@@ -20,7 +20,9 @@
  Bundle 'groenewege/vim-less'
  Bundle 'jnwhiteh/vim-golang'
  Bundle 'nsf/gocode', {'rtp': 'vim/'}
- Bundle 'ervandew/supertab'
+ Bundle "pangloss/vim-javascript"
+ Bundle "myhere/vim-nodejs-complete"
+ " Bundle 'ervandew/supertab'
  " Bundle 'tempire/slimv'
 
  " vim-scripts repos
@@ -52,16 +54,29 @@ syntax on "syntax highlight
 
 " Indent Guides{
 let g:indent_guides_guide_size=1
-set cc=80
 " let g:indent_guides_enable_on_vim_startup = 1
 " }
 
 " TAB setting{
    set expandtab        "replace <TAB> with spaces
-   set softtabstop=4 
-   set shiftwidth=4 
+   set softtabstop=4
+   set shiftwidth=4
 
-   au FileType Makefile set noexpandtab
+   " PHP setting{
+        au FileType php set softtabstop=8
+        au FileType php set shiftwidth=8
+        au FileType php set expandtab
+   " }
+   "
+   " JS setting{
+        au FileType js set softtabstop=2
+        au FileType js set shiftwidth=2
+        au FileType js set expandtab
+   " }
+
+   " Makefile setting{
+        au FileType Makefile set noexpandtab
+   " }
 "} 
 
 " chinese env
@@ -70,7 +85,7 @@ set termencoding=utf-8
 set fileencoding=utf-8
 set fileencodings=ucs-bom,utf-8,big5,gb2312,latin1
 
-set bs=2     	" allow backspacing over everything in insert mode
+set bs=2      " allow backspacing over everything in insert mode
 set autoread 	" auto read when file is changed from outside
 set nu 		" show line number
 set ruler 	" show the cursor position all the time
