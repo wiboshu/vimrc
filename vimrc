@@ -22,6 +22,7 @@
  Bundle 'nsf/gocode', {'rtp': 'vim/'}
  Bundle "pangloss/vim-javascript"
  Bundle "myhere/vim-nodejs-complete"
+ Bundle 'tpope/vim-dispatch'
  " Bundle 'ervandew/supertab'
  " Bundle 'tempire/slimv'
 
