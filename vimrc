@@ -23,12 +23,13 @@
  Bundle "pangloss/vim-javascript"
  Bundle "myhere/vim-nodejs-complete"
  Bundle 'tpope/vim-dispatch'
+ Bundle 'kien/ctrlp.vim'
  " Bundle 'ervandew/supertab'
  " Bundle 'tempire/slimv'
 
  " vim-scripts repos
  Bundle 'L9'
- Bundle 'FuzzyFinder'
+ " Bundle 'FuzzyFinder'
  Bundle 'matchit.zip'
  Bundle 'The-NERD-Commenter'
  Bundle 'taglist.vim'
