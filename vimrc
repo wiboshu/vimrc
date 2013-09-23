@@ -108,6 +108,10 @@ let g:EasyMotion_leader_key = '<Leader>,'
 map <S-H> gT
 " go to next tab
 map <S-L> gt
+" go below split
+map <C-J> <C-W>j<C-W>
+" go above split
+map <C-L> <C-W>l<C-W>
 
 " ,p toggles paste mode
 nmap <leader>p :set paste!<BAR>set paste?<CR>
