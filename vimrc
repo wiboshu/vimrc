@@ -24,6 +24,7 @@
  Bundle "myhere/vim-nodejs-complete"
  Bundle 'tpope/vim-dispatch'
  Bundle 'kien/ctrlp.vim'
+ Bundle 'Lokaltog/vim-powerline'
  " Bundle 'ervandew/supertab'
  " Bundle 'tempire/slimv'
 
@@ -140,3 +141,6 @@ nmap <leader>n :NERDTreeToggle <CR>
    inoremap <C-u>5 <esc>yypVr^A
 "}
 iab iidate <c-r>=strftime("20%y年%m月%d日 %H:%M:%S")<cr>
+let g:snips_author='wiboshu <wiboshu@gmail.com>'
+set laststatus=2
+
