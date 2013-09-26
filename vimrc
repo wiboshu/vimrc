@@ -36,6 +36,7 @@
  Bundle 'taglist.vim'
  Bundle 'VimClojure'
  Bundle 'Indent-Guides'
+ Bundle 'grep.vim'
  " non github repos
  " Bundle 'git://git.wincent.com/command-t.git'
  " ...
