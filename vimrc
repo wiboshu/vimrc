@@ -25,6 +25,7 @@
  Bundle 'tpope/vim-dispatch'
  Bundle 'kien/ctrlp.vim'
  Bundle 'Lokaltog/vim-powerline'
+ Bundle 'StanAngeloff/php.vim'
  " Bundle 'ervandew/supertab'
  " Bundle 'tempire/slimv'
 
