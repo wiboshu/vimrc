@@ -146,4 +146,6 @@ nmap <leader>n :NERDTreeToggle <CR>
 iab iidate <c-r>=strftime("20%y年%m月%d日 %H:%M:%S")<cr>
 let g:snips_author='wiboshu <wiboshu@gmail.com>'
 set laststatus=2
+" ctrlp不随打开文件自动变更工作目录 
+let g:ctrlp_working_path_mode = 'a'
 
