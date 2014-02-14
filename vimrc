@@ -69,8 +69,8 @@ let g:indent_guides_guide_size=1
    set shiftwidth=4
 
    " PHP setting{
-        au FileType php set softtabstop=8
-        au FileType php set shiftwidth=8
+        au FileType php set softtabstop=4
+        au FileType php set shiftwidth=4
         au FileType php set expandtab
    " }
    "
