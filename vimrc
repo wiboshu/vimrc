@@ -27,6 +27,7 @@
  Bundle 'Lokaltog/vim-powerline'
  Bundle 'StanAngeloff/php.vim'
  Bundle 'godlygeek/tabular'
+ Bundle 'hallison/vim-markdown'
  " Bundle 'ervandew/supertab'
  " Bundle 'tempire/slimv'
 
