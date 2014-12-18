@@ -149,4 +149,6 @@ let g:snips_author='wiboshu <wiboshu@gmail.com>'
 set laststatus=2
 " ctrlp不随打开文件自动变更工作目录 
 let g:ctrlp_working_path_mode = 'a'
+" 打开marker折叠方式
+set foldmethod=marker
 
