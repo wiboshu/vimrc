@@ -151,4 +151,6 @@ set laststatus=2
 let g:ctrlp_working_path_mode = 'a'
 " 打开marker折叠方式
 set foldmethod=marker
+" 打开对php语法代码折叠
+let php_folding=1
 
