@@ -102,6 +102,8 @@ set nobackup    " no *~ backup files
 
 set wildignore=*.o,*.class,*.pyc " 忽略这些文件名
 
+au BufNewFile,BufRead *.volt set filetype=html "设置volt文件使用html语法高亮
+
 " set leader to ,
 let mapleader=","
 let g:mapleader=","
